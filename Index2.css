@@ -1,0 +1,60 @@
+img{
+
+  border-style: inset;
+  border-color: red;
+
+}
+
+ @media screen (max-width:800px){
+   .carousel-item
+   {
+      width: 50%;
+      height: 50%;
+    }
+
+  }
+
+@media screen and (min-width: 320px)  {
+  .d-md-block, .carousel-caption {
+    display: block;
+    font-size: .5em;
+    font-weight: bold;
+  }
+  .table td, .table th {
+    font-size: 38px;
+  }
+  h5{
+    font-size: 38px;
+  }
+  p{
+    font-size: 25px;
+  }
+  .carousel-item{
+    height: 50%;
+    width: 50%;
+  }
+}
+
+h3{
+  text-shadow: 2px 2px #4314c1;
+}
+
+@media screen and (min-width: 768px)  {
+  .d-md-block, .carousel-caption {
+    display: block !important;
+    font-size: .5em;
+    font-weight: bold;
+  }
+
+  h5{
+    font-size: 50px;
+  }
+  p{
+    font-size: 25px;
+  }
+}
+h3{
+  text-shadow: 2px 2px #4314c1;
+}
+
+/* !important xxx */
